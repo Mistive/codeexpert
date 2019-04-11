@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 
 
@@ -113,7 +113,7 @@ BNUM bnumber;
 
 int check(int num) {
 	for (int i = 0; i < 1000; i++) {
-		//¸¸µé ¼ö ¾ø´Â ¼ýÀÚÀÏ °æ¿ì pass
+		//ë§Œë“¤ ìˆ˜ ì—†ëŠ” ìˆ«ìžì¼ ê²½ìš° pass
 		if (anumber.A[i] == 0) continue;
 	
 		

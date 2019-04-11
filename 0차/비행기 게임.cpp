@@ -1,11 +1,11 @@
-#include <stdio.h>
+Ôªø#include <stdio.h>
 
 int TC;
 int N = 13, M = 5;
 
 
 char map[13][5];
-//Ω√¿€¿ßƒ° x = 2, y = 12;
+//ÏãúÏûëÏúÑÏπò x = 2, y = 12;
 
 
 int maxscore = -0x7fffffff;
@@ -50,7 +50,7 @@ void dfs(int x, int y, int bomb, int score, int vx[]) {
 
 	if (x >= M || y >= N || x < 0 || y < 0) return;
 	vx[y] = x;
-	//¡°ºˆ ∞ËªÍ
+	//Ï†êÏàò Í≥ÑÏÇ∞
 	if (map[y][x] == 'X') {
 		score -= 7;
 	}
@@ -59,7 +59,7 @@ void dfs(int x, int y, int bomb, int score, int vx[]) {
 	}
 
 	if (y == 0) {
-		//∞·∞˙ »Æ¿Œ
+		//Í≤∞Í≥º ÌôïÏù∏
 		if (score > maxscore) {
 			maxscore = score;
 			/*	print();
@@ -70,7 +70,7 @@ void dfs(int x, int y, int bomb, int score, int vx[]) {
 		return;
 	}
 
-	//¿Ãµø
+	//Ïù¥Îèô
 
 	if (bomb == 1) {
 		usebomb2(x, y, &idx, qx, qy);

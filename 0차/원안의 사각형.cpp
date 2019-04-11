@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
-	// ¿©±â¼­ºÎÅÍ ÀÛ¼º
+	// ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 	int N;
 	scanf("%d", &N);
 

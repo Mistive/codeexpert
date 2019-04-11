@@ -1,4 +1,4 @@
-//1h 20min
+ï»¿//1h 20min
 #include <stdio.h>
 
 int TC;
@@ -10,7 +10,7 @@ typedef struct {
 	int idx;
 	int v;
 	//int force;
-	int used;		//ÀüÇÏ »ç¿ë ¿©ºÎ(0: usable, 1: used)
+	int used;		//ì „í•˜ ì‚¬ìš© ì—¬ë¶€(0: usable, 1: used)
 }ATOM;
 ATOM atom[7];
 

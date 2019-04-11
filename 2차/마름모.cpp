@@ -1,4 +1,4 @@
-//31min
+﻿//31min
 #include <stdio.h>
 
 int N, K;
