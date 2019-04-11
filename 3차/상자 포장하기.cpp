@@ -1,4 +1,4 @@
-//11min
+ï»¿//11min
 #include <stdio.h>
 
 int TC;
@@ -13,11 +13,11 @@ void dfs(int preA, int preB, int sum, int count) {
 		return;
 	}
 	
-	//A¿¡ ³Ö´Â °æ¿ì
+	//Aì— ë„£ëŠ” ê²½ìš°
 	if (preA > order[count]) {
 		dfs(order[count], preB, sum+order[count], count + 1);
 	}
-	//B¿¡ ³Ö´Â °æ¿ì
+	//Bì— ë„£ëŠ” ê²½ìš°
 	if (preB < order[count]) {
 		dfs(preA, order[count], sum + order[count], count + 1);
 	}
