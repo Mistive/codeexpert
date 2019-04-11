@@ -2,7 +2,7 @@
 
 4중for문에서 연산량을 줄일 수 있었는데 그러지 못했음
 
-````
+```c
 #include <stdio.h>
 int N, R;
 int map[30][30];
@@ -65,4 +65,4 @@ int main(void) {
 	printf("%d\n", max);
 	return 0;
 }
-````
+```
